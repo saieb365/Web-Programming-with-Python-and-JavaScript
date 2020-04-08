@@ -1,0 +1,10 @@
+#installation:
+install ruby
+#from the ruby commandline run:
+gem install sass
+
+#to compile as .scss to a .css:
+sass variables.scss variables.css
+
+#to continually comple a file, run:
+sass --watch variables.scss:variables.css
